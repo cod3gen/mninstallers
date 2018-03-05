@@ -34,6 +34,9 @@ Finally run the script:
 ./install.sh OR ./install.sh YOUR_PRIVATE_MN_KEY
 
 
+# Get in touch
+
+Get in touch at Discord - cod3gen#5466
 
 Like this script? It would be awesome if you could donate me a beer!
 ETH: 0x57A9F99645dC74F9373409A8Ba18Bc0F92566af3
