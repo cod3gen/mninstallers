@@ -25,7 +25,7 @@ Following coins are currently supported:
 Log in as root user.
 
 Use wget to download the script:
-- wget <Direct Link>
+- wget Direct Link
 
 Then you need to set correct permissions:
 - chmod +x install.sh
