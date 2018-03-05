@@ -25,14 +25,14 @@ Following coins are currently supported:
 Log in as root user.
 
 Use wget to download the script:
-1. wget <Direct Link>
+- wget <Direct Link>
 
 Then you need to set correct permissions:
-2. chmod +x install.sh
+- chmod +x install.sh
 
 Finally run the script:
-3. ./install.sh OR ./install.sh YOUR_PRIVATE_MN_KEY
-4. Follow scripts instructions.
+- ./install.sh OR ./install.sh YOUR_PRIVATE_MN_KEY
+- Follow scripts instructions.
 
 When installation is finished, you can check wallet`s cli to verify blocks, or masternode status:
 xuma-cli getinfo -> Will display information about the wallet, including last block indexed.
