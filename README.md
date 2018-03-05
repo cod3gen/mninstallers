@@ -9,7 +9,7 @@ You can use these scripts to:
 - Install wallet with masternode function
 - Install as regular wallet
 - Install as service
-- Only create new configs
+- Create new configs
 
 This is a guided scripts, and your selections depends on what from above you would like this script to do for you. I only recommend a cold wallet, where you have your coins in your local wallet and masternode external on a VPS or Dedicated server with a static IP.
 These scripts are only designed for Ubuntu 16.04.
