@@ -15,9 +15,21 @@ This is a guided scripts, and your selections depends on what from above you wou
 These scripts are only designed for Ubuntu 16.04.
 
 Following coins are currently supported:
-- Bankitt (v1.1.0.1)
+- Bankitt (v1.1.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Bankitt/install.sh
+- Shekel (v1.3.0.0) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Shekel/install.sh
 
+Howto install:
 
+Log in as root user.
+
+Use wget to download the script:
+wget <Direct Link>
+
+Then you need to set correct permissions:
+chmod +x install.sh
+
+Finally run the script:
+./install.sh OR ./install.sh YOUR_PRIVATE_MN_KEY
 
 
 
