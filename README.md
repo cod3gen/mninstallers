@@ -34,9 +34,9 @@ Finally run the script:
 - ./install.sh OR ./install.sh YOUR_PRIVATE_MN_KEY
 - Follow scripts instructions.
 
-When installation is finished, you can check wallet`s cli to verify blocks, or masternode status:
-xuma-cli getinfo -> Will display information about the wallet, including last block indexed.
-xuma-cli masternode status -> Will display status of masternode. If ok you should usually see "Masternode successfully started" as status.
+When installation is finished, you can check wallet`s cli to verify blocks, or masternode. Example with Xuma wallet:
+- xuma-cli getinfo -> Will display information about the wallet, including last block indexed.
+- xuma-cli masternode status -> Will display status of masternode. If ok you should usually see "Masternode successfully started" as status.
 
 # Get in touch
 
