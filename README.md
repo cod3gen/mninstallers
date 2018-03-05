@@ -1,4 +1,4 @@
-# mninstallers
+# MNInstallers
 Installation of Masternodes is quite simple, but it can still be even simpler with these scripts!
 
 During the time of creating masternodes i have found that many don`t have any good scripts to automate this processs.
@@ -14,11 +14,13 @@ You can use these scripts to:
 This is a guided scripts, and your selections depends on what from above you would like this script to do for you. I only recommend a cold wallet, where you have your coins in your local wallet and masternode external on a VPS or Dedicated server with a static IP.
 These scripts are only designed for Ubuntu 16.04.
 
+# Supported Coins
 Following coins are currently supported:
 - Bankitt (v1.1.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Bankitt/install.sh
 - Shekel (v1.3.0.0) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Shekel/install.sh
+- Xuma (v1.0.3) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Xuma/install.sh
 
-Howto install:
+# Howto install:
 
 Log in as root user.
 
