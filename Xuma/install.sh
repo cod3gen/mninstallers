@@ -71,6 +71,7 @@ old_stty_cfg=$(stty -g)
 stty raw -echo ; answer=$(head -c 1) ; stty $old_stty_cfg
 if echo "$answer" | grep -iq "^y" ;then
   echo -e "\nGenerating configuration and saving to $HOME/$COINCORE/$COINCONF\n"
+  mkdir $COINCORE
   printf "rpcuser=$USER\nrpcpassword=$PASS\nrpcport=$RPC\ndaemon=1\nlisten=1\nserver=1\nmaxconnections=$MAXCONN\nrpcallowip=$RPCALLOWIP\nexternalip=$EXIP:$P2P\nmasternode=1\nmasternodeprivkey=$MNKEY\n$ADDCOINCONF\n" > /$HOME/$COINCORE/$COINCONF
 else
   echo -e "\nGenerating configuration and saving to $HOME/$COINCORE/$COINCONF\n"
