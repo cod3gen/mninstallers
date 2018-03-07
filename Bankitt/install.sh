@@ -10,6 +10,7 @@ COINCONF=bankitt.conf
 COINCORE=.bankittcore
 COINS="BKT:"
 COINDEV="BqqRdh8C7erxonKvpJN2j9LdQh2s1pSfxb"
+COINGIT="https://github.com/bankitt/bankitt.git"
 ADDCOINCONF="addnode=159.65.4.213:1661\naddnode=159.65.4.238:1661\naddnode=148.251.244.141:1661\naddnode=186.55.79.148:1661\naddnode=193.124.176.128:1661\naddnode=194.166.140.209:1661\naddnode=201.185.74.67:1661\naddnode=219.115.192.147:1661\naddnode=65.60.245.79:1661\naddnode=95.65.39.101:1661\naddnode=51.254.63.208:1661"
 RPCALLOWIP=127.0.0.1
 MAXCONN=256
@@ -51,7 +52,7 @@ if echo "$answer" | grep -iq "^y" ;then
   echo -e "\nOK.\n"
   mkdir $HOME/$TEMPDIR
   chmod -R 777 $HOME/$TEMPDIR
-  sudo git clone https://github.com/bankitt/bankitt.git $HOME/$TEMPDIR
+  sudo git clone $COINGIT $HOME/$TEMPDIR
   cd $HOME/$TEMPDIR
   chmod 777 autogen.sh
   ./autogen.sh
