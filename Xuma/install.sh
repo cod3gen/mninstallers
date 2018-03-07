@@ -8,6 +8,7 @@ COINDS=xumad_screen
 COINCLI=xuma-cli
 COINCONF=xuma.conf
 COINCORE=".xuma/mainnet"
+COINCOREROOT=".xuma"
 COINGIT="https://github.com/xumacoin/xuma-core.git"
 COINS="XMX:"
 COINDEV="XDDFqH98o1jtqUcWpMDxsd2u9qEhDmt128"
@@ -61,6 +62,7 @@ if echo "$answer" | grep -iq "^y" ;then
   sudo make
   sudo make install
   cd $HOME
+  mkdir $HOME/$COINCOREROOT
   mkdir $HOME/$COINCORE
   chmod -R 777 $HOME/$COINCORE
 else
@@ -71,7 +73,6 @@ old_stty_cfg=$(stty -g)
 stty raw -echo ; answer=$(head -c 1) ; stty $old_stty_cfg
 if echo "$answer" | grep -iq "^y" ;then
   echo -e "\nGenerating configuration and saving to $HOME/$COINCORE/$COINCONF\n"
-  mkdir $COINCORE
   printf "rpcuser=$USER\nrpcpassword=$PASS\nrpcport=$RPC\ndaemon=1\nlisten=1\nserver=1\nmaxconnections=$MAXCONN\nrpcallowip=$RPCALLOWIP\nexternalip=$EXIP:$P2P\nmasternode=1\nmasternodeprivkey=$MNKEY\n$ADDCOINCONF\n" > /$HOME/$COINCORE/$COINCONF
 else
   echo -e "\nGenerating configuration and saving to $HOME/$COINCORE/$COINCONF\n"
