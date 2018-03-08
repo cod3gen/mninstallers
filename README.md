@@ -19,6 +19,14 @@ Following coins are currently supported:
 - Bankitt (v1.1.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Bankitt/install.sh
 - Shekel (v1.3.0.0) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Shekel/install.sh
 - Xuma (v1.0.3) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Xuma/install.sh
+- Absolute (v0.12.2) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Absolute/install.sh
+- Sparks (v0.12.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Sparks/install.sh
+- Stone (v1.0.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Stone/install.sh
+- OnexNetwork (v1.3.0) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Onex/install.sh
+- Pushi Play (v1.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Pushi/install.sh
+- Volcoin (v1.0.1) - Direct link: https://raw.githubusercontent.com/cod3gen/mninstallers/master/Volcoin/install.sh
+
+Latest version of wallet will always be downloaded during installation, the version in () is the version that the script is verified to work with.
 
 # Howto install:
 
